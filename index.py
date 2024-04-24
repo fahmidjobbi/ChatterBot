@@ -36,16 +36,16 @@ bot = ChatBot(
 )
 
 
-#trainer = ListTrainer(bot)
-#trainer.train(dialogs)
+trainer = ListTrainer(bot)
+trainer.train(dialogs)
 
 # Create a ChatterBotCorpusTrainer instance and train the bot
-#trainer = ChatterBotCorpusTrainer(bot)
-#trainer.train("chatterbot.corpus.english")
+trainer = ChatterBotCorpusTrainer(bot)
+trainer.train("chatterbot.corpus.english")
 
 
-#trainer = ListTrainer(bot)
-#trainer.train(conversations)
+trainer = ListTrainer(bot)
+trainer.train(conversations)
 
 
 # Start the conversation loop
