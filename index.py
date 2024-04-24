@@ -4,6 +4,7 @@ import pandas as pd
 from joblib import dump, load
 
 #C:\Users\USER\AppData\Local\Programs\Python\Python37\lib\site-packages\chatterbot\tagging.py
+#data dialogs_expanded.csv : ##https://www.kaggle.com/code/hosammhmdali/nlp-chatbot/input
 # Create a new ChatBot instance
 
 df = pd.read_csv('corpus.csv')
