@@ -1,0 +1,3 @@
+## this project works only in python3.8 env cause ChatterBot library work only with this version of python 
+## u must fix some code in the chatterbot library Python37\lib\site-packages\chatterbot\tagging.py file 
+## this chat bot is trained in different data sources 
